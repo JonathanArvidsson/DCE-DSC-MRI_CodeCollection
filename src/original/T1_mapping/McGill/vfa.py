@@ -12,7 +12,6 @@ def despot(signal, alpha, TR):
     intercept = np.mean(y, axis = -1) - slope * np.mean(x, axis = -1)
     M0 = intercept / (1 - slope)
     T1 = -TR / np.log(slope)
-    if isinstance(T1, np.ndarray): T1[slope < 0] = np.nan 
     return M0, T1
 
 def novifast(signal, alpha, TR, initialvalues = [5000, 1500], maxiter = 10, tol = 1e-6, doiterative = True):
@@ -67,7 +66,6 @@ def novifast(signal, alpha, TR, initialvalues = [5000, 1500], maxiter = 10, tol 
                 done = True
     M0 = solA/(1-solB)
     T1 = -TR/np.log(solB)
-    if isinstance(T1, np.ndarray): T1[solB < 0] = np.nan
     M0 = M0.reshape(spatialdims)
     T1 = T1.reshape(spatialdims)
     return M0, T1
