@@ -139,3 +139,7 @@ cython_debug/
 
 # Vscode settings
 .vscode/
+
+# jupyterbook
+notebooks/data
+_build/

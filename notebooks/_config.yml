@@ -1,0 +1,6 @@
+# Book settings
+# More info: https://jupyterbook.org/customize/config.html
+title: OSIPI Code
+author: OSIPI
+copyright: "2021"
+logo: logo.png 
