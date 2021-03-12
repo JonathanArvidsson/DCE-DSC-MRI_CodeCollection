@@ -6,3 +6,8 @@
     - file: T1mapping_QIBAv1.ipynb
     - file: T1mapping_QIBAv2.ipynb
     - file: T1mapping_RIDER.ipynb
+- file: guidelines
+  sections:
+    - file: localguide
+    - file: localtests
+- file: contributors.ipynb

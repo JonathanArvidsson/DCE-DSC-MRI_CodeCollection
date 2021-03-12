@@ -6,3 +6,4 @@ nibabel
 mat73
 scipy
 lmfit
+pandas
