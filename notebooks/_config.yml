@@ -3,4 +3,6 @@
 title: OSIPI Code
 author: OSIPI
 copyright: "2021"
-logo: logo.png 
+logo: logo.png
+execute:
+  timeout: 300
