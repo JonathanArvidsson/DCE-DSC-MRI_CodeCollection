@@ -6,3 +6,7 @@ copyright: "2021"
 logo: logo.png
 execute:
   timeout: 300
+repository:
+  url                       : https://github.com/OSIPI/DCE-DSC-MRI_CodeCollection 
+  path_to_book              : notebooks 
+  branch                    : demo
