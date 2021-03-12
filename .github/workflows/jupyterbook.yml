@@ -37,7 +37,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.DEMO_TOKEN }}
       with:
-        source-directory: 'notebooks/_build'
+        source-directory: 'notebooks/_build/html'
         destination-github-username: 'notZaki'
         destination-repository-name: 'osipidemo'
         user-email: zaki@live.ca
