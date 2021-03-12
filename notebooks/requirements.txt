@@ -4,3 +4,4 @@ numpy
 ghp-import
 nibabel
 mat73
+scipy
