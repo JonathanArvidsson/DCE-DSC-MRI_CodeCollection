@@ -30,6 +30,7 @@ jobs:
     - name: Build the book
       run: |
         jupyter-book build notebooks/
+        touch notebooks/_build/html/.nojekyll
 
     # Deploy the book's HTML to another repo
     - name: publish:starters
