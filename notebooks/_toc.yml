@@ -7,6 +7,7 @@
     - file: T1mapping_QIBAv1.ipynb
     - file: T1mapping_QIBAv2.ipynb
     - file: T1mapping_RIDER.ipynb
+- file: RIDERneuro_overview.ipynb
 - file: guidelines.md
   sections:
     - file: localguide.md
