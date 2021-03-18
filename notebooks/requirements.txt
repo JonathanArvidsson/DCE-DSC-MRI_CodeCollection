@@ -7,3 +7,4 @@ mat73
 scipy
 lmfit
 pandas
+nilearn
